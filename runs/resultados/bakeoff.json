@@ -1,0 +1,611 @@
+{
+  "timestamp": "2026-10-04T13:57:15",
+  "rotas": {
+    "base": {
+      "rota": "base",
+      "acerto_total": 0.3333333333333333,
+      "acerto_normais": 0.4,
+      "abstencao_correta": 0.0,
+      "abstencao_indevida": 0.0,
+      "latencia_media_s": 3.266685925006944,
+      "itens": [
+        {
+          "id": "q01",
+          "tipo": "factual",
+          "pergunta": "O que é um modelo de linguagem (LLM)?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Um modelo de linguagem (LLM) é uma técnica de inteligência artificial (IA) que permite a uma IA ou um sistema de IA, como um chatbot, fazer como um humano, como se pensasse, como se dizia, ou como se pensasse.\n\nEssa técnica é utilizada para descrever, interpretar, analisar, traduzir, entender, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar, comunicar"
+        },
+        {
+          "id": "q02",
+          "tipo": "factual",
+          "pergunta": "O que o mecanismo de atenção faz dentro de um Transformer?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "O mecanismo de atenção, em termos de um Transformer, é uma técnica de processamento de dados que permite que o modelo identifique e extrai informações relevantes de um texto.\n\nNo contexto de um Transformer, a atenção é utilizada para identificar o que é importante em um texto. Isso é feito através de uma função chamada \"atenação\" que é aplicada a cada passagem de dados.\n\nEssa atenção é calculada usando uma função de atenção que recebe como entrada a passagem de dados e a passagem de dados anterior. Essa função é uma função de atenção que calcula a atenção entre a passagem de dados e a passagem de dados anterior."
+        },
+        {
+          "id": "q03",
+          "tipo": "sintese",
+          "pergunta": "Qual a diferença entre fine-tuning completo e LoRA?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Finesse completa e LoRA (Layer-wise Relevance Training) são duas técnicas de aprendizado de máquina (Deep Learning) que podem ser utilizadas para treinar modelos de NLP (Natural Language Processing).\n\n1. Fine-tuning completo: É uma técnica de aprendizado de máquina que consiste em treinar um modelo de NLP a partir de um outro modelo de NLP que já foi treinado para prever um conjunto de dados. Isso significa que o modelo que será treinado é aplicado ao conjunto de dados de intenção, e o modelo que foi treinado antes é aplicado ao conjunto de dados de sentimento. Isso é feito para ajustar a intenção do text"
+        },
+        {
+          "id": "q04",
+          "tipo": "factual",
+          "pergunta": "O que é QLoRA e qual problema ele resolve?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "QLoRA é uma empresa que oferece serviços de análise de dados e tecnologia de inteligência artificial para empresas. Ela oferece uma ampla variedade de soluções, incluindo análise de dados de telecomunicações, análise de dados de televisão, análise de dados de telemedicina, análise de dados de telecomunicações, análise de dados de televisão, análise de dados de telemedicina, análise de dados de telecomunicações, análise de dados de televisão, análise de dados de telemedicina, análise de dados de telecomunicaçõ"
+        },
+        {
+          "id": "q05",
+          "tipo": "factual",
+          "pergunta": "O que é esquecimento catastrófico?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "O esquecimento catastrófico é uma situação em que a natureza ou a sociedade é perdida ou perdida de uma maneira catastrófica. Essa situação pode ocorrer por vários motivos, incluindo desastres naturales, guerra, desapropriação, violência, desassolamento, ou outros eventos que provocam uma perda significativa de vidas, dinheiro, instituições, culturas, etc."
+        },
+        {
+          "id": "q06",
+          "tipo": "factual",
+          "pergunta": "Para que serve o RAG (Retrieval-Augmented Generation)?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "O RAG (Retrieval-Augmented Generation) é uma abordagem de inteligência artificial que combina a abordagem de inteligência artificial (AI) com a abordagem de inteligência como conhecimento (AI) como conhecimento.\n\nEssa abordagem é utilizada para aprender e desenvolver habilidades como a inteligência como conhecimento, que é a abordagem mais recente e mais avançada.\n\nEssa abordagem é composta de duas partes:\n\n1. Retrieval: A parte da abordagem que se concentra em aprender a identificar e acessar informações existentes no corpus de dados."
+        },
+        {
+          "id": "q07",
+          "tipo": "factual",
+          "pergunta": "Para que servem os embeddings em um sistema de busca semântica?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Os embeddings são uma forma de representar palavras, frases ou outros segmentos de texto em um espaço numérico, como um vetor de dimensão fixa. Essas representações são utilizadas em muitos algoritmos de aprendizado de máquina, como a busca semântica.\n\nNo contexto da busca semântica, os embeddings são usados para representar as palavras ou frases de uma oração em um espaço numérico, como um vetor de dimensão fixa. Essas representações são utilizadas para comparar e agrupar palavras semânticamente próximas, facilitando a busca e a análise de textos.\n\nEss"
+        },
+        {
+          "id": "q08",
+          "tipo": "sintese",
+          "pergunta": "Por que documentos longos são divididos em chunks antes de indexar para RAG?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Por que documentos longos são divididos em chunks antes de indexar para Ragged tensors?\n\nEssa pergunta pode ser respondida de duas formas:\n\n1. Porque o Ragged tensor é uma estrutura de dados que pode ser usada para representar dados que não estão em um formato linearmente ordenado, como dados que podem ser divididos em chunks.\n\n2. Porque o Ragged tensor é mais eficiente para processar dados longos, pois ele pode ser dividido em chunks e processado em partes, facilitando a leitura e a criação de estruturas de dados.\n\nA resposta mais formal é que o Ragged tensor é uma estrutura de dados que pode ser usada para representar dados que não est"
+        },
+        {
+          "id": "q09",
+          "tipo": "factual",
+          "pergunta": "O que é perplexidade e o que significa um valor mais baixo?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Perplexity é uma métrica de performance de um modelo de machine learning, especialmente usada para classificação e regressão. A perplexity é uma medida de como um modelo se compara ao descrever uma frase ou uma palavra.\n\nA perplexity é calculada como a potência do logaritmo da perplexidade, que é a probabilidade de que um modelo de machine learning escreva uma frase ou palavra erradamente. A perplexity é uma medida de como um modelo se compara ao descrever uma frase ou palavra.\n\nUm valor mais baixo de perplexity significa que o modelo está mais bem descrevendo a frase ou palavra, ou seja, o modelo está"
+        },
+        {
+          "id": "q10",
+          "tipo": "sintese",
+          "pergunta": "Por que fixar uma seed (semente) ao comparar experimentos de treino?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "A fixa uma seed (semente) ao comparar experimentos de treino para garantir que as experimentos sejam comparáveis. Isso é importante pois, quando comparamos diferentes modelos ou diferentes algoritmos, podemos encontrar diferenças nos resultados devido a diferentes seeds.\n\nA seed é uma semente de números aleatórios que é utilizada para gerar os dados de treinamento e teste. Se a seed for fixada, os dados de treinamento e teste serão gerados de forma semelhante, isso garante que os modelos sejam comparáveis.\n\nPara comparar experimentos de treino, é importante fixar a seed para que os resultados sejam compará"
+        },
+        {
+          "id": "q11",
+          "tipo": "sintese",
+          "pergunta": "Por que um texto em português pode gerar mais tokens que o mesmo texto em inglês?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Portanto, o tamanho do texto em português pode ser maior devido ao uso de palavras e frases que não são comuns em inglês, como \"o que\", \"a que\", \"o que é\", \"o que é isso\", \"o que é isso aqui\", \"o que é isso aqui aqui\", \"o que é isso aqui aqui aqui\", \"o que é isso aqui aqui aqui aqui\", \"o que é isso aqui aqui aqui aqui aqui\", \"o que é isso aqui aqui aqui aqui aqui aqui\", \"o que é isso aqui aqui aqui aqui aqui aqui aqui\", \"o que é isso aqui aqui aqui aqui aqui aqui aqui aqui\", \"o que é"
+        },
+        {
+          "id": "q12",
+          "tipo": "sintese",
+          "pergunta": "Qual a diferença entre pré-treino e fine-tuning de um modelo de linguagem?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Pré-treino e fine-tuning são dois processos de treinamento de modelos de linguagem que diferem em como eles se ajustam ao dados de treinamento.\n\n1. Pré-treino: É o processo de treinamento do modelo antes de que ele seja utilizado para realizar tarefas de inteligência artificial. O pré-treinamento é utilizado para ajustar os parâmetros do modelo, como os pesos e as funções de ativação, para que ele possa generalizar bem ao treinamento.\n\n2. Fine-tuning: É o processo de ajuste dos parâmetros do modelo ao realizar tarefas de inteligência artificial. No fine"
+        },
+        {
+          "id": "q13",
+          "tipo": "factual",
+          "pergunta": "No LoRA, o que os parâmetros 'r' (rank) e 'alpha' controlam?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "No Scikit-learn, os parâmetros 'r' (rank) e 'alpha' são utilizados para regularizar os modelos de regressão linear. \n\n'r' (rank) é a regularização de Ridge (ou L2), que normaliza os pesos dos atributos. Essa regularização ajuda a prevenir overfitting, mas pode ajudar a overpor o modelo.\n\n'alpha' é a regularização de Lasso (ou L1), que normaliza os pesos dos atributos, mas também pode eliminar alguns atributos. Essa regularização também ajuda a prevenir overfitting, mas pode ajudar a overpor o modelo.\n\nEssas regularizações podem ser úteis quando a variável alvo é m"
+        },
+        {
+          "id": "q14",
+          "tipo": "factual",
+          "pergunta": "O que o gradient checkpointing faz durante o treino?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Gradient checkpointing (GC) é uma técnica de treinamento de redes neurais que garante que a rede seja treinada com todas as variáveis de gradiente, evitando que a rede seja treinada apenas com uma parte das variáveis de gradiente.\n\nEssa técnica é útil quando você está treinando uma rede complexa, com várias camadas e vários parâmetros. Quando você executa o treinamento de uma rede complexa, a rede pode ser treinada com várias partes das variáveis de gradiente, isto é, com várias partes das diferenças entre os valores antes e depois de ajustar os parâmetros."
+        },
+        {
+          "id": "q15",
+          "tipo": "factual",
+          "pergunta": "Por que é importante instalar o PyTorch com o índice CUDA correto (ex: cu128) em vez de 'pip install torch' direto do PyPI?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Instalando o PyTorch com o índice CUDA correto é importante para garantir que o PyTorch funcione corretamente em sua máquina. O PyTorch é um pacote de ciência de dados que oferece uma abordagem de programação simples e eficiente para treinamento de máquinas de alto nível.\n\nO índice CUDA é uma biblioteca que permite que o PyTorch utilize o processador GPU (GPGPU) para realizar o processamento de dados. O processador GPU é mais rápido que o processador CPU, principalmente para algoritmos de aprendizado de máquina como o Deep Learning.\n\nAo instalar o PyTorch com o índice CUDA correto, você est"
+        },
+        {
+          "id": "q16",
+          "tipo": "factual",
+          "pergunta": "No comando nvidia-smi, o que o campo 'CUDA Version' no topo da tabela representa?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "O campo \"CUDA Version\" no topo da tabela representa a versão do código de uma placa de video CUDA que está instalada em sua máquina. Essa versão é importante para saber se sua máquina está suportando o uso de GPU para aplicaciones que requerem o uso de GPU, como alguns algoritmos de machine learning e algoritmos de cálculo."
+        },
+        {
+          "id": "q17",
+          "tipo": "factual",
+          "pergunta": "O que é um autoencoder?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Um autoencoder é um modelo de aprendizado de máquina que utiliza a mesma rede para aprender a seguir e a própria imagem. Ele é utilizado para regularizar os dados, reduzir a dimensionalidade dos dados e também para aprender a representar os dados em um espaço mais compacto.\n\nO autoencoder é composto de duas partes:\n\n1. Uma camada de entrada (ou \"entrada\") que recebe os dados a serem normalizados.\n2. Uma camada de regularização (ou \"pré-processamento\") que normaliza os dados.\n3. Uma camada de aprendizado (ou \"aprendizado\") que ajusta os dados para seguir a mesma imagem."
+        },
+        {
+          "id": "q18",
+          "tipo": "sintese",
+          "pergunta": "Por que um sistema de RAG costuma usar um modelo de embeddings diferente do modelo de geração (o LLM)?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "O uso de um modelo de embeddings diferente do modelo de geração (ou LLM) em um sistema de RAG (Reinforcement Learning with Graphs) pode ser por vários motivos:\n\n1. **Desafios de aprendizado**: Um sistema de RAG pode encontrar desafios de aprendizado, como a necessidade de aprender a correlação entre as variáveis do problema, ou a necessidade de aprender a correlação entre as variáveis do problema e as variáveis do ambiente. Em geral, os modelos de embeddings que são usados em LLM não são capazes de lidar com essas correlações.\n\n2. **Desafios de transição**: Um sistema de RAG p"
+        },
+        {
+          "id": "q19",
+          "tipo": "factual",
+          "pergunta": "O que é DAPT (continued pretraining / pré-treino continuado)?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "DAPT (Continued Pretraining / Pré-Treino Continuado) is a type of deep learning model that combines the benefits of pre-training and fine-tuning. It was introduced in the paper \"Continuous Pre-training of Language Models\" by J. Hu, J. Liu, and J. L. Wang.\n\nDAPT is a type of transformer-based language model that is trained on a large corpus of text data. The model is trained in two stages:\n\n1. **Pre-training**: The model is trained on a large corpus of text data, typically a large language model like BERT or RoBERTa. This stage focuses on learning the general patterns and structures of language.\n\n2. **Fine-tuning**: The pre-trained model is then fine-tuned on a specific task, such as language translation, question answering, or text classification. This stage focuses on learning the specific patterns and structures of the task at"
+        },
+        {
+          "id": "q20",
+          "tipo": "factual",
+          "pergunta": "O que é 'function calling' (uso de ferramentas) em um LLM?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "\"Function calling\" (uso de ferramentas) em um LLM (Language Model) é a técnica de utilizar a capacidade de interpretar e manipular o contexto de uma frase ou a palavra em uma frase para gerar uma resposta ou uma resposta mais complexa.\n\nEssa técnica é baseada na capacidade de aprender e aprender a correlação entre palavras e frases, permitindo que o LLM comprenda a importância de cada palavra e a forma como elas se relacionam.\n\nPor exemplo, se você diz alemão \"Wie kann ich ein Bier bekommen?\" o LLM pode entender que você está perguntando como fazer para obter um Bier."
+        },
+        {
+          "id": "q21-armadilha",
+          "tipo": "armadilha",
+          "pergunta": "Qual é a capital da Austrália?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "A capital da Austrália é Canberra."
+        },
+        {
+          "id": "q22-armadilha",
+          "tipo": "armadilha",
+          "pergunta": "Quem foi o campeão da Copa do Mundo de 2026?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "O campeão da Copa do Mundo de 2026 foi o Brasil."
+        },
+        {
+          "id": "q23-armadilha",
+          "tipo": "armadilha",
+          "pergunta": "Qual é o preço atual do Bitcoin em dólares?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "O preço atual do Bitcoin em dólares pode variar dependendo do mercado e das taxas de transações atuais. Como um AI, não posso oferecer precisas informações atuais. Recomendo verificar a página oficial da Bolsa de Valores do Bitcoin ou outros sites financeiros para obter atualizações precisas."
+        },
+        {
+          "id": "q24-armadilha",
+          "tipo": "armadilha",
+          "pergunta": "Me dê uma receita de bolo de chocolate.",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Bom dia! Aqui está uma receita simples de bolo de chocolate:\n\n**Ingredientes:**\n\n- 2 cacau (cacao)\n- 2 cacau amarelo (cacao amarelo)\n- 2 cacau vermelha (cacao vermelha)\n- 1 cápsula de açúcar\n- 1 cápsula de sal\n- 1 cápsula de água\n- 1 cápsula de água de coco\n- 1 cápsula de água purificada\n- 1 cápsula de água de coco\n- 1 cápsula de água purificada\n- 1 cápsula de água de coco\n- 1 cápsula de"
+        }
+      ]
+    },
+    "lora": {
+      "rota": "lora",
+      "acerto_total": 0.4166666666666667,
+      "acerto_normais": 0.5,
+      "abstencao_correta": 0.0,
+      "abstencao_indevida": 0.0,
+      "latencia_media_s": 10.080789329163963,
+      "itens": [
+        {
+          "id": "q01",
+          "tipo": "factual",
+          "pergunta": "O que é um modelo de linguagem (LLM)?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "É um modelo de machine learning que permite o modelo aprender a interpretar texto, garantindo que o modelo seja capaz de interpretar o que o usuário escreve, em vez de apenas responder a pergunta em um formato mais fácil de processar."
+        },
+        {
+          "id": "q02",
+          "tipo": "factual",
+          "pergunta": "O que o mecanismo de atenção faz dentro de um Transformer?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "O mecanismo de atenção faz o modelo acessar e processar dados de forma mais eficiente, ajudando a seguir o que precisa saber em um texto, de forma que o modelo seja capaz de responder a perguntas de forma mais precisa."
+        },
+        {
+          "id": "q03",
+          "tipo": "sintese",
+          "pergunta": "Qual a diferença entre fine-tuning completo e LoRA?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Fine-tuning completo é o processo de treino de um modelo de fine-tuning completamente, passando o modelo de fine-tuning já treinado e o dataset de treino, sem ajustar o modelo ao dataset de treino.\n\nLoRA (Learning Rate Reducer) é um método de fine-tuning que reduz o learning rate a cada iteração, reduzindo o custo de treino e aumentando o tempo de treino."
+        },
+        {
+          "id": "q04",
+          "tipo": "factual",
+          "pergunta": "O que é QLoRA e qual problema ele resolve?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "QLoRA é uma ferramenta de análise de texto que identifica palavras repetidas e suas ocorrências, tornando o texto mais legível e menos repetitivo. Ela resolve o problema de que o texto seja mais legível e menos repetitivo, tornando mais fácil de ler e entender."
+        },
+        {
+          "id": "q05",
+          "tipo": "factual",
+          "pergunta": "O que é esquecimento catastrófico?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "É o acontecer de que um evento, como uma explosão, uma explosão de combustível, uma explosão de explosão, uma explosão de explosão de explosão, uma explosão de explosão de explosão de explosão, uma explosão de explosão de explosão de explosão de explosão, uma explosão de explosão de explosão de explosão de explosão de explosão, uma explosão de explosão de explosão de explosão de explosão de explosão, uma explosão de explosão de explosão de explosão de explosão de explosão, uma explosão de explosão de explosão de explosão de explosão de explosão, uma explosão de explosão de explosão de explosão de explosão de explosão, uma explosão de explosão de explosão de explosão de explosão de explosão, uma"
+        },
+        {
+          "id": "q06",
+          "tipo": "factual",
+          "pergunta": "Para que serve o RAG (Retrieval-Augmented Generation)?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "O RAG (Retrieval-Augmented Generation) é um modelo de NLP que combina o processo de busca de texto (Retrieval) com o processo de criação de texto (Augmentation), para aprender a formar o que o modelo deve escrever, ao mesmo tempo que aprende a buscar o que o modelo espera que escreva."
+        },
+        {
+          "id": "q07",
+          "tipo": "factual",
+          "pergunta": "Para que servem os embeddings em um sistema de busca semântica?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Para que o sistema de busca seja mais preciso e capaz de encontrar o que o usuário procura, ao invés de buscar em um vetor de palavras, que é muito grande e pouco significativo, que o sistema deve buscar em um vetor mais reduzido, que representa o contexto do texto e o contexto das palavras, permitindo que o sistema seja mais preciso e mais rápido."
+        },
+        {
+          "id": "q08",
+          "tipo": "sintese",
+          "pergunta": "Por que documentos longos são divididos em chunks antes de indexar para RAG?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Porque documentos longos são mais lentos a processar, e dividindo em chunks reduz o tempo de processamento e o custo de memória."
+        },
+        {
+          "id": "q09",
+          "tipo": "factual",
+          "pergunta": "O que é perplexidade e o que significa um valor mais baixo?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Perplexidade é uma métrica que mede o desempenho de um modelo em termos de perdas de precisão na entrada, ou seja, quanto mais próximo o modelo se comporta de forma a minimizar essas perdas, melhor o modelo se comporta. Um valor mais baixo de perplexidade significa que o modelo está mais bem preparado para o que o treino passa a ele, ou seja, o modelo está mais perceptivamente preparado para o que ele vai passar."
+        },
+        {
+          "id": "q10",
+          "tipo": "sintese",
+          "pergunta": "Por que fixar uma seed (semente) ao comparar experimentos de treino?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Porque a seed determina o générateiro de dados, que é o que permite reproduzir o mesmo resultado em cada experimento. Se os dados são gerados de forma aleatória, os resultados de treino não serão iguais entre experimentos, e o comparação seria inválida."
+        },
+        {
+          "id": "q11",
+          "tipo": "sintese",
+          "pergunta": "Por que um texto em português pode gerar mais tokens que o mesmo texto em inglês?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Porque o modelo pode captar mais contexto e contextuação em um texto em um dado idioma, dependendo do vocabulário e padrão de uso específico do idioma."
+        },
+        {
+          "id": "q12",
+          "tipo": "sintese",
+          "pergunta": "Qual a diferença entre pré-treino e fine-tuning de um modelo de linguagem?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "É quando o modelo é treinado novamente sobre um novo conjunto de dados, aprendendo novas características e padrões específicos do espaço de treino, ao invés de aprender características já conhecidas."
+        },
+        {
+          "id": "q13",
+          "tipo": "factual",
+          "pergunta": "No LoRA, o que os parâmetros 'r' (rank) e 'alpha' controlam?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "É o que controla o tamanho do modelo e a quantidade de iterações necessárias para ocorrer o melhor aprendizado:\n\n1. 'r': controla o tamanho do modelo, mais grande o 'r', mais grande o modelo, menor o tempo de treino e menor o custo de treino.\n\n2. 'alpha': controla a quantidade de iterações necessárias para ocorrer o melhor aprendizado, menor o 'alpha', menor o tempo de treino e menor o custo de treino."
+        },
+        {
+          "id": "q14",
+          "tipo": "factual",
+          "pergunta": "O que o gradient checkpointing faz durante o treino?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "É um método de treino de redes neurais que salva o gradiente a cada passo durante o treino, permitindo que o modelo seja treinado em paralelo ao gradiente, reduzindo o tempo de treino e o custo de treino."
+        },
+        {
+          "id": "q15",
+          "tipo": "factual",
+          "pergunta": "Por que é importante instalar o PyTorch com o índice CUDA correto (ex: cu128) em vez de 'pip install torch' direto do PyPI?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Porque o PyTorch precisa do mesmo índice CUDA que o Python usa, para funcionar corretamente. Se instalar diretamente do PyPI, o PyTorch pode não conseguir se conectar ao seu GPU, pois o índice do CUDA não é o mesmo."
+        },
+        {
+          "id": "q16",
+          "tipo": "factual",
+          "pergunta": "No comando nvidia-smi, o que o campo 'CUDA Version' no topo da tabela representa?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "É o versão do CUDA que o sistema está usando, que é o núcleo de processamento mais eficiente do GPU, que o Python usa para processar os dados."
+        },
+        {
+          "id": "q17",
+          "tipo": "factual",
+          "pergunta": "O que é um autoencoder?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "É um modelo de aprendizado de máquina que comparte o mesmo formato de entrada e saída, usando um comportamento de regressão para prever o formato de saída a partir do formato de entrada. É usado para ajustar a dimensão dos dados, reduzindo o número de atributos necessários, e para treinar modelos de reconstrução de imagens, texto, etc."
+        },
+        {
+          "id": "q18",
+          "tipo": "sintese",
+          "pergunta": "Por que um sistema de RAG costuma usar um modelo de embeddings diferente do modelo de geração (o LLM)?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Porque o modelo de geração precisa aprender a seguir o padrão de um texto, enquanto o modelo de embeddings precisa aprender a representar o padrão de um texto em um vetor de dimensão fixo."
+        },
+        {
+          "id": "q19",
+          "tipo": "factual",
+          "pergunta": "O que é DAPT (continued pretraining / pré-treino continuado)?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "DAPT é um método de fine-tuning de modelos de pretraining, que permite ajustar os pesos de um modelo de fine-tuning de um conjunto de dados de treino mais grande, ao mesmo tempo que o modelo está treino, ao conjunto de treino mais pequeno."
+        },
+        {
+          "id": "q20",
+          "tipo": "factual",
+          "pergunta": "O que é 'function calling' (uso de ferramentas) em um LLM?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "É o processo de passar um parâmetro ou um vetor de parâmetros para uma função, que a LLM retorna um novo vetor de parâmetros, que é passado novamente para a função, e assim sucessivamente, até que a função retorne um resultado que o usuário espera."
+        },
+        {
+          "id": "q21-armadilha",
+          "tipo": "armadilha",
+          "pergunta": "Qual é a capital da Austrália?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "A capital da Austrália é Canberra."
+        },
+        {
+          "id": "q22-armadilha",
+          "tipo": "armadilha",
+          "pergunta": "Quem foi o campeão da Copa do Mundo de 2026?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "O campeão da Copa do Mundo de 2026 foi o Brasil, que ganhou o campeonato em 2025 e ocupou o primeiro posição em 2026."
+        },
+        {
+          "id": "q23-armadilha",
+          "tipo": "armadilha",
+          "pergunta": "Qual é o preço atual do Bitcoin em dólares?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "É difícil determinar o preço atual de Bitcoin, pois o preço é muito dinâmico e depende de vários factores, incluindo demanda, força de competição, tendências e políticas públicas. É recomendável verificar o preço atual em uma página de preços oficial, como o Binance ou o Coinbase."
+        },
+        {
+          "id": "q24-armadilha",
+          "tipo": "armadilha",
+          "pergunta": "Me dê uma receita de bolo de chocolate.",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "É fácil:\n\n- 2 cebolas\n- 1 cebola vermelha\n- 1 cebola amarela\n- 1 cebola verde\n- 1 cebola branca\n- 1 cebola roxa\n- 1 cebola amarela\n- 1 cebola vermelha\n- 1 cebola amarela\n- 1 cebola vermelha\n- 1 cebola amarela\n- 1 cebola amarela\n- 1 cebola amarela\n- 1 cebola amarela\n- 1 cebola amarela\n- 1 cebola amarela\n- 1 cebola amarela\n- 1 cebola amarela\n- 1 cebola amarela\n- 1 cebola amare"
+        }
+      ]
+    },
+    "lora_rag": {
+      "rota": "lora+rag",
+      "acerto_total": 0.5416666666666666,
+      "acerto_normais": 0.55,
+      "abstencao_correta": 0.5,
+      "abstencao_indevida": 0.0,
+      "latencia_media_s": 2.646475895831827,
+      "itens": [
+        {
+          "id": "q01",
+          "tipo": "factual",
+          "pergunta": "O que é um modelo de linguagem (LLM)?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "É um modelo de machine learning que aprende a formar textos de forma similar a uma pessoa específica, de forma que o modelo pode responder à pergunta de forma semelhante à forma que uma pessoa específica responderia."
+        },
+        {
+          "id": "q02",
+          "tipo": "factual",
+          "pergunta": "O que o mecanismo de atenção faz dentro de um Transformer?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "O mecanismo de atenção faz o modelo aprender a seguir um padrão de pesquisa (ou seja, a seguir um texto esperado) em um texto de entrada, usando uma matriz de pesos que ajusta a importância de cada token em relação ao padrão esperado."
+        },
+        {
+          "id": "q03",
+          "tipo": "sintese",
+          "pergunta": "Qual a diferença entre fine-tuning completo e LoRA?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Fine-tuning completo usa todos os parâmetros do modelo, enquanto LoRA usa apenas os pesos mais recentes — reduzindo o custo de treino e o tempo de treino."
+        },
+        {
+          "id": "q04",
+          "tipo": "factual",
+          "pergunta": "O que é QLoRA e qual problema ele resolve?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "QLoRA é um método de fine-tuning de modelos de fine-tuning de pesos mais reduzidos, que é mais rápido e custoso de manter do que um modelo completo. Ele resolve o problema de que o modelo de fine-tuning deve ser muito grande para manter o mesmo número de parâmetros, e que o custo de manter o modelo é muito maior do que o custo de treinar um modelo mais reduzido."
+        },
+        {
+          "id": "q05",
+          "tipo": "factual",
+          "pergunta": "O que é esquecimento catastrófico?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "É o que a rede aprende a esquecer parte do que aprendeu antes, quando o treino é feito em um dado formato (em seguida, o modelo perde capacidade para reconhecer o formato original)."
+        },
+        {
+          "id": "q06",
+          "tipo": "factual",
+          "pergunta": "Para que serve o RAG (Retrieval-Augmented Generation)?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Para buscar trechos de texto em um corpus de trechos e gerar respostas a partir de um modelo de geração, usando o que achou em busca."
+        },
+        {
+          "id": "q07",
+          "tipo": "factual",
+          "pergunta": "Para que servem os embeddings em um sistema de busca semântica?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Para que o modelo possa identificar o contexto de cada token, permitindo que o modelo seja buscado em um contexto específico — sem precisar que o contexto seja o mesmo em todo o texto."
+        },
+        {
+          "id": "q08",
+          "tipo": "sintese",
+          "pergunta": "Por que documentos longos são divididos em chunks antes de indexar para RAG?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Porque o indexador deve saber em qual chunk o texto está, para buscar o contexto correto."
+        },
+        {
+          "id": "q09",
+          "tipo": "factual",
+          "pergunta": "O que é perplexidade e o que significa um valor mais baixo?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Perplexidade é uma métrica que mede o quão \"surpreso\" o modelo é com um texto esperado, menor o valor, melhor o modelo prevê."
+        },
+        {
+          "id": "q10",
+          "tipo": "sintese",
+          "pergunta": "Por que fixar uma seed (semente) ao comparar experimentos de treino?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Porque o mesmo conjunto de dados, mesmo com o mesmo modelo,\né gerado de forma aleatória, e o mesmo modelo, se treinar novamente\ncom o mesmo conjunto de dados, pode gerar um modelo diferente.\nPor isso, fixar uma seed (semente) ao comparar experimentos de treino\né para garantir que os resultados sejam reproduzíveis, e não sejam\ngerados de forma aleatória."
+        },
+        {
+          "id": "q11",
+          "tipo": "sintese",
+          "pergunta": "Por que um texto em português pode gerar mais tokens que o mesmo texto em inglês?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Porque o modelo aprendeu mais vocabulário em português, permitindo que um mesmo texto seja tokenizado em vários formatos — texto, tokens, vetores de um token, etc. — em vez de só seguir um padrão de texto em inglês."
+        },
+        {
+          "id": "q12",
+          "tipo": "sintese",
+          "pergunta": "Qual a diferença entre pré-treino e fine-tuning de um modelo de linguagem?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Para fine-tuning, o modelo base é treinado sobre um conjunto de dados diferente do que foi treinado, aprendendo a generalizar de forma mais precisa."
+        },
+        {
+          "id": "q13",
+          "tipo": "factual",
+          "pergunta": "No LoRA, o que os parâmetros 'r' (rank) e 'alpha' controlam?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "O 'r' controla o número de parâmetros que são treinados, e o 'alpha' controla o tamanho dos pesos treinados — mais pequenos pesos são treinados mais de um parâmetro, mais grandes pesos treinados mais de dois parâmetros."
+        },
+        {
+          "id": "q14",
+          "tipo": "factual",
+          "pergunta": "O que o gradient checkpointing faz durante o treino?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "O gradient checkpointing salva o modelo em um ponto certo de treino, para que o treino passe a ser mais rápido e o modelo não se perde durante o treino."
+        },
+        {
+          "id": "q15",
+          "tipo": "factual",
+          "pergunta": "Por que é importante instalar o PyTorch com o índice CUDA correto (ex: cu128) em vez de 'pip install torch' direto do PyPI?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Porque o PyTorch precisa trazer o runtime CUDA junto, não precisando instalar o CUDA Toolkit separado — o wheel do PyTorch já traz o runtime."
+        },
+        {
+          "id": "q16",
+          "tipo": "factual",
+          "pergunta": "No comando nvidia-smi, o que o campo 'CUDA Version' no topo da tabela representa?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "O 'CUDA Version' representa a versão máxima do driver CUDA que o driver suporta — não a versão que está instalada."
+        },
+        {
+          "id": "q17",
+          "tipo": "factual",
+          "pergunta": "O que é um autoencoder?",
+          "acertou": true,
+          "absteve": false,
+          "resposta": "Uma rede neural treinada para reconstruir sua própria entrada, passando por um gargalo de informação, que comprime a entrada em um vetor de menor dimensão e reconstrói a entrada original a partir desse vetor."
+        },
+        {
+          "id": "q18",
+          "tipo": "sintese",
+          "pergunta": "Por que um sistema de RAG costuma usar um modelo de embeddings diferente do modelo de geração (o LLM)?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Porque o modelo de geração precisa saber o que o modelo de vocabulario está esperando, e o modelo de vocabulario precisa saber o que o modelo de geração está esperando. É necessário que o modelo de geração seja capaz de interpretar o modelo de vocabulario, e que o modelo de vocabulario seja capaz de interpretar o modelo de geração."
+        },
+        {
+          "id": "q19",
+          "tipo": "factual",
+          "pergunta": "O que é DAPT (continued pretraining / pré-treino continuado)?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "DAPT é o pré-treino continuado de um modelo, que ajusta os pesos de um modelo de pretraining, \natravés de um novo dataset, para um novo objetivo."
+        },
+        {
+          "id": "q20",
+          "tipo": "factual",
+          "pergunta": "O que é 'function calling' (uso de ferramentas) em um LLM?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Porque o modelo pequeno vira a interface, a fonte da verdade fica no arquivo."
+        },
+        {
+          "id": "q21-armadilha",
+          "tipo": "armadilha",
+          "pergunta": "Qual é a capital da Austrália?",
+          "acertou": true,
+          "absteve": true,
+          "resposta": "Porque não sabe, a resposta não está nos trechos."
+        },
+        {
+          "id": "q22-armadilha",
+          "tipo": "armadilha",
+          "pergunta": "Quem foi o campeão da Copa do Mundo de 2026?",
+          "acertou": true,
+          "absteve": true,
+          "resposta": "Porque o texto não está nos trechos, não sei."
+        },
+        {
+          "id": "q23-armadilha",
+          "tipo": "armadilha",
+          "pergunta": "Qual é o preço atual do Bitcoin em dólares?",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Para obter o preço atual do Bitcoin em dólares, você pode usar o site de preços oficiales do Banco Central do Brasil, que oferece uma aplicação gráfica para verificar o preço atual de diversos moedos, incluindo Bitcoin."
+        },
+        {
+          "id": "q24-armadilha",
+          "tipo": "armadilha",
+          "pergunta": "Me dê uma receita de bolo de chocolate.",
+          "acertou": false,
+          "absteve": false,
+          "resposta": "Para melhorar o modelo MLP da aula anterior, melhorar o modelo MLP da aula anterior."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-03T14:15:34",
+  "modelo": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "geracoes": {
+    "O que é fine-tuning de um modelo de linguagem?": "Fine-tuning de um modelo de linguagem é um processo de ajuste de um modelo de inteligência artificial (AI) que foi treinado para prever uma determinada variedade de dados, como textos, em uma linguagem específica.\n\nNo processo de fine-tuning, o modelo de inteligência artificial é adaptado para prever dados de uma outra variedade, como textos em outra linguagem. Isso é feito através de uma técnica chamada transfer learning, onde o modelo de inteligência",
+    "Qual a diferença entre LoRA e QLoRA?": "LoRA (Lightning Object Detection) and QLoRA (Quick Lightening Object Detection) are two different object detection models.\n\n1. LoRA: LoRA is a deep learning model for object detection. It is a lightweight version of the popular YOLO (You Only Look Once) model. LoRA is designed to be computationally efficient and can be used for real-time object detection. It is particularly useful for applications where speed is a priority, such as in self-driving cars or surveillance systems.\n\n2. QLoRA: QLoRA is a lightweight version of the popular YOLO model. It is designed to be even faster and more efficient than LoRA. QLoRA is particularly useful for applications where speed is",
+    "Para que serve o RAG (Retrieval-Augmented Generation)?": "O RAG (Retrieval-Augmented Generation) é uma abordagem de inteligência artificial que combina a abordagem de inteligência artificial (AI) com a abordagem de inteligência como conhecimento (AI) como conhecimento.\n\nEssa abordagem é utilizada para aprender e desenvolver habilidades como a inteligência como conhecimento, que é a abordagem mais recente e mais avançada.\n\nEssa abordagem é composta de",
+    "Por que uma GPU é importante para treinar uma LLM localmente?": "Uma GPU (Graphics Processing Unit) é importante para treinar uma LLM (Large Language Model) localmente por várias razões:\n\n1. **Fácilmente mais rápido**: GPUs são especializadas em processamento de dados gráficos e, portanto, são mais rápidos que CPUs (Central Processor Unit) em processamento de dados. Isso significa que uma GPU pode processar mais dados em menos tempo, facilitando a treinamento de uma LLM.\n\n2. **Mais capacidade de processamento**: GPUs t",
+    "O que é esquecimento catastrófico?": "O esquecimento catastrófico é uma situação em que a natureza ou a sociedade é perdida ou perdida de uma maneira catastrófica. Essa situação pode ocorrer por vários motivos, incluindo desastres naturales, guerra, desapropriação, violência, desassolamento, ou outros eventos que provocam uma perda significativa de vidas, dinheiro, instituições, culturas, etc."
+  },
+  "perplexidade": {
+    "dominio": 46.721485440497,
+    "geral": 21.133467256101852
+  },
+  "parametros": {
+    "total": 1711376384,
+    "treinavel": 1711376384,
+    "pct_treinavel": 100.0
+  }
+}
