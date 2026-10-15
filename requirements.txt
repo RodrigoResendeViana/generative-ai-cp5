@@ -1,0 +1,32 @@
+# --------------------------------------------------------------------------
+# IMPORTANTE: o PyTorch NÃO está aqui de propósito.
+# Instale-o ANTES, com o índice CUDA correto para a sua placa:
+#
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+#
+# Confira o índice atual em https://pytorch.org/get-started/locally/
+# Se instalar `torch` a partir do PyPI comum você recebe a build CPU,
+# e nada neste projeto vai usar a GPU. Confirme com:
+#   pip show torch        -> a versão precisa terminar em +cu128 (ou +cu1xx)
+# --------------------------------------------------------------------------
+
+transformers>=4.46
+datasets>=3.0
+accelerate>=1.0
+peft>=0.13
+trl>=0.12
+
+# RAG
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+PyMuPDF>=1.24
+
+# utilidades
+numpy
+matplotlib
+huggingface_hub[cli]
+
+# backend
+fastapi>=0.115
+uvicorn[standard]>=0.32
+pydantic>=2.9

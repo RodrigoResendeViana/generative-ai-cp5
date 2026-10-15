@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dados protegidos por direitos autorais (PDFs das aulas) e artefatos gerados
+data/corpus/
+data/corpus.jsonl
+data/chunks.jsonl
+
+# Saídas de treino pesadas: checkpoints, adaptadores LoRA, índice FAISS
+# (métricas em runs/resultados/ e o gráfico runs/sweep.png são versionados como evidência)
+runs/*
+!runs/resultados/
+!runs/sweep.png
+
+# Hugging Face cache local (se configurado dentro do projeto)
+.hf_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Backend
+backend/__pycache__/
+
+# Editor / SO
+.vscode/*.log
+.claude/
+.DS_Store
+Thumbs.db
+
+# Segredos
+.env
+*.token
