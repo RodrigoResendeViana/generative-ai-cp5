@@ -1,0 +1,163 @@
+:root {
+  --bg: #0f1115;
+  --bg-elevado: #171a21;
+  --borda: #2a2f3a;
+  --texto: #e7e9ee;
+  --texto-fraco: #9aa1ae;
+  --acento: #7c9eff;
+  --ok: #3fb97f;
+  --off: #566;
+  --usuario: #2a3550;
+  --assistente: #1c2029;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--texto);
+}
+
+.app {
+  max-width: 760px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.header h1 {
+  margin: 0 0 4px;
+  font-size: 1.4rem;
+}
+
+.subtitulo {
+  margin: 0 0 10px;
+  color: var(--texto-fraco);
+  font-size: 0.85rem;
+}
+
+.badges {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  font-size: 0.72rem;
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--borda);
+}
+
+.badge.ok { color: var(--ok); border-color: var(--ok); }
+.badge.off { color: var(--texto-fraco); }
+
+.controles {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--bg-elevado);
+  border: 1px solid var(--borda);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+  font-size: 0.85rem;
+}
+
+.controles label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.controles label.desativado {
+  color: var(--texto-fraco);
+  cursor: not-allowed;
+}
+
+.chat {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 4px 0 12px;
+  min-height: 240px;
+}
+
+.vazio {
+  color: var(--texto-fraco);
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+.mensagem { display: flex; }
+.mensagem.usuario { justify-content: flex-end; }
+.mensagem.assistente { justify-content: flex-start; }
+
+.bolha {
+  max-width: 80%;
+  padding: 10px 14px;
+  border-radius: 14px;
+  white-space: pre-wrap;
+  line-height: 1.4;
+  font-size: 0.92rem;
+}
+
+.mensagem.usuario .bolha { background: var(--usuario); border-bottom-right-radius: 4px; }
+.mensagem.assistente .bolha { background: var(--assistente); border: 1px solid var(--borda); border-bottom-left-radius: 4px; }
+
+.meta {
+  margin-top: 6px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 0.7rem;
+  color: var(--texto-fraco);
+}
+
+.erro {
+  color: #ff6b6b;
+  font-size: 0.85rem;
+}
+
+.form-entrada {
+  display: flex;
+  gap: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--borda);
+}
+
+.form-entrada input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--borda);
+  background: var(--bg-elevado);
+  color: var(--texto);
+  font-size: 0.92rem;
+}
+
+.form-entrada input:focus { outline: 2px solid var(--acento); }
+
+.form-entrada button {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  background: var(--acento);
+  color: #0b0d12;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-entrada button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
