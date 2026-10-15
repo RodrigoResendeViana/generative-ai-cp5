@@ -1,0 +1,53 @@
+{
+  "resultados": [
+    {
+      "nome_run": "r16_lr2e-4_ep3",
+      "hiperparametros": {
+        "r": 16,
+        "lora_alpha": 32,
+        "lr": 0.0002,
+        "epochs": 3,
+        "grad_accum": 8
+      },
+      "train_loss_final": 1.8041131695111592,
+      "eval_loss_final": 1.8010997772216797
+    },
+    {
+      "nome_run": "r8_lr2e-4_ep3",
+      "hiperparametros": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lr": 0.0002,
+        "epochs": 3,
+        "grad_accum": 8
+      },
+      "train_loss_final": 1.9103426138559978,
+      "eval_loss_final": 1.8771023750305176
+    },
+    {
+      "nome_run": "r16_lr1e-4_ep3",
+      "hiperparametros": {
+        "r": 16,
+        "lora_alpha": 32,
+        "lr": 0.0001,
+        "epochs": 3,
+        "grad_accum": 8
+      },
+      "train_loss_final": 1.9665394226710002,
+      "eval_loss_final": 1.943664789199829
+    },
+    {
+      "nome_run": "r16_lr2e-4_ep5",
+      "hiperparametros": {
+        "r": 16,
+        "lora_alpha": 32,
+        "lr": 0.0002,
+        "epochs": 5,
+        "grad_accum": 8
+      },
+      "train_loss_final": 1.575100553035736,
+      "eval_loss_final": 1.728293538093567
+    }
+  ],
+  "melhor": "r16_lr2e-4_ep5"
+}
