@@ -1,0 +1,170 @@
+[
+  {
+    "id": "q01",
+    "pergunta": "O que é um modelo de linguagem (LLM)?",
+    "tipo": "factual",
+    "palavras_chave": ["texto", "probabilidade", "token", "prever", "sequência"],
+    "resposta_referencia": "Um modelo de linguagem é treinado para prever a probabilidade do próximo token em uma sequência de texto, aprendendo padrões estatísticos da linguagem a partir de um grande volume de dados."
+  },
+  {
+    "id": "q02",
+    "pergunta": "O que o mecanismo de atenção faz dentro de um Transformer?",
+    "tipo": "factual",
+    "palavras_chave": ["atenção", "pondera", "relevância", "contexto", "token"],
+    "resposta_referencia": "A atenção pondera a relevância de cada token em relação aos demais na sequência, permitindo que o modelo combine informação de diferentes posições do contexto ao gerar cada saída."
+  },
+  {
+    "id": "q03",
+    "pergunta": "Qual a diferença entre fine-tuning completo e LoRA?",
+    "tipo": "sintese",
+    "palavras_chave": ["todos os pesos", "congela", "baixo posto", "poucos parâmetros", "adaptador"],
+    "resposta_referencia": "No fine-tuning completo todos os pesos do modelo são atualizados. No LoRA os pesos originais ficam congelados e apenas duas matrizes de baixo posto (o adaptador) são treinadas, reduzindo drasticamente a memória e o número de parâmetros treináveis."
+  },
+  {
+    "id": "q04",
+    "pergunta": "O que é QLoRA e qual problema ele resolve?",
+    "tipo": "factual",
+    "palavras_chave": ["quantização", "4 bits", "memória", "VRAM", "LoRA"],
+    "resposta_referencia": "QLoRA combina quantização do modelo base em 4 bits com adaptadores LoRA, reduzindo ainda mais o uso de VRAM e permitindo treinar modelos maiores em GPUs com pouca memória."
+  },
+  {
+    "id": "q05",
+    "pergunta": "O que é esquecimento catastrófico?",
+    "tipo": "factual",
+    "palavras_chave": ["esquece", "capacidade anterior", "treino", "domínio", "perde"],
+    "resposta_referencia": "Esquecimento catastrófico é quando o modelo, ao ser treinado intensamente em um novo domínio, perde capacidades que tinha antes do treino, como responder bem em outros idiomas ou assuntos."
+  },
+  {
+    "id": "q06",
+    "pergunta": "Para que serve o RAG (Retrieval-Augmented Generation)?",
+    "tipo": "factual",
+    "palavras_chave": ["recuperar", "contexto", "documentos", "busca", "sem treinar"],
+    "resposta_referencia": "RAG busca os trechos mais relevantes de uma base de documentos e os injeta no prompt antes da geração, permitindo que o modelo responda com base em informação atualizada sem precisar ser retreinado."
+  },
+  {
+    "id": "q07",
+    "pergunta": "Para que servem os embeddings em um sistema de busca semântica?",
+    "tipo": "factual",
+    "palavras_chave": ["vetor", "significado", "similaridade", "representação"],
+    "resposta_referencia": "Embeddings transformam um texto em um vetor numérico que representa seu significado, permitindo comparar textos por similaridade (por exemplo, distância de cosseno) em vez de comparação literal de palavras."
+  },
+  {
+    "id": "q08",
+    "pergunta": "Por que documentos longos são divididos em chunks antes de indexar para RAG?",
+    "tipo": "sintese",
+    "palavras_chave": ["janela de contexto", "limite", "pedaços", "busca", "relevante"],
+    "resposta_referencia": "O modelo tem uma janela de contexto limitada e um documento inteiro pode não caber nela; dividir em chunks menores também melhora a precisão da busca, já que trechos mais focados tendem a ser mais relevantes para uma pergunta específica."
+  },
+  {
+    "id": "q09",
+    "pergunta": "O que é perplexidade e o que significa um valor mais baixo?",
+    "tipo": "factual",
+    "palavras_chave": ["previsão", "quanto menor melhor", "métrica", "probabilidade"],
+    "resposta_referencia": "Perplexidade mede o quão bem o modelo prevê um texto; quanto menor o valor, melhor o modelo está prevendo aquela sequência."
+  },
+  {
+    "id": "q10",
+    "pergunta": "Por que fixar uma seed (semente) ao comparar experimentos de treino?",
+    "tipo": "sintese",
+    "palavras_chave": ["reprodutível", "mesmo resultado", "comparar", "aleatoriedade"],
+    "resposta_referencia": "Fixar a seed garante que a aleatoriedade (inicialização, embaralhamento dos dados, amostragem) seja a mesma em execuções diferentes, tornando os experimentos reprodutíveis e as comparações entre eles válidas."
+  },
+  {
+    "id": "q11",
+    "pergunta": "Por que um texto em português pode gerar mais tokens que o mesmo texto em inglês?",
+    "tipo": "sintese",
+    "palavras_chave": ["tokenizador", "vocabulário", "treinado majoritariamente", "inglês"],
+    "resposta_referencia": "O tokenizador foi treinado majoritariamente sobre texto em inglês, então palavras em português tendem a ser quebradas em mais subpalavras, custando mais tokens para representar a mesma frase."
+  },
+  {
+    "id": "q12",
+    "pergunta": "Qual a diferença entre pré-treino e fine-tuning de um modelo de linguagem?",
+    "tipo": "sintese",
+    "palavras_chave": ["do zero", "grande volume", "especializa", "menor conjunto"],
+    "resposta_referencia": "O pré-treino aprende os padrões gerais da linguagem a partir de um volume enorme e diverso de texto, geralmente do zero. O fine-tuning parte desse modelo já pré-treinado e o especializa em uma tarefa ou domínio específico, usando um conjunto de dados muito menor."
+  },
+  {
+    "id": "q13",
+    "pergunta": "No LoRA, o que os parâmetros 'r' (rank) e 'alpha' controlam?",
+    "tipo": "factual",
+    "palavras_chave": ["rank", "tamanho do adaptador", "escala", "capacidade"],
+    "resposta_referencia": "'r' define o posto (rank) das matrizes do adaptador, controlando sua capacidade — quanto maior, mais parâmetros treináveis. 'alpha' escala a contribuição do adaptador sobre os pesos originais do modelo."
+  },
+  {
+    "id": "q14",
+    "pergunta": "O que o gradient checkpointing faz durante o treino?",
+    "tipo": "factual",
+    "palavras_chave": ["memória", "recalcula", "tempo", "ativações"],
+    "resposta_referencia": "Gradient checkpointing economiza memória não guardando todas as ativações intermediárias durante o forward, recalculando-as durante o backward — trocando tempo extra de computação por menor uso de VRAM."
+  },
+  {
+    "id": "q15",
+    "pergunta": "Por que é importante instalar o PyTorch com o índice CUDA correto (ex: cu128) em vez de 'pip install torch' direto do PyPI?",
+    "tipo": "factual",
+    "palavras_chave": ["build CPU", "GPU", "índice", "não usa a placa"],
+    "resposta_referencia": "O pacote padrão do PyPI é a build para CPU; sem apontar o índice CUDA (ex.: --index-url .../cu128), o PyTorch é instalado sem suporte a GPU e todo o treino roda, muito mais lentamente, no processador."
+  },
+  {
+    "id": "q16",
+    "pergunta": "No comando nvidia-smi, o que o campo 'CUDA Version' no topo da tabela representa?",
+    "tipo": "factual",
+    "palavras_chave": ["máxima", "driver", "não é a instalada", "suportada"],
+    "resposta_referencia": "Esse número é a versão máxima de CUDA que o driver instalado suporta — não é necessariamente a versão de CUDA realmente em uso por um programa."
+  },
+  {
+    "id": "q17",
+    "pergunta": "O que é um autoencoder?",
+    "tipo": "factual",
+    "palavras_chave": ["comprimir", "reconstruir", "representação latente", "codificador", "decodificador"],
+    "resposta_referencia": "Um autoencoder é uma rede neural que aprende a comprimir uma entrada em uma representação latente menor (codificador) e depois reconstruí-la a partir dessa representação (decodificador)."
+  },
+  {
+    "id": "q18",
+    "pergunta": "Por que um sistema de RAG costuma usar um modelo de embeddings diferente do modelo de geração (o LLM)?",
+    "tipo": "sintese",
+    "palavras_chave": ["vetor de sentença", "especializado", "geração não é o mesmo que", "similaridade"],
+    "resposta_referencia": "Modelos de geração são otimizados para produzir texto token a token, não para produzir um bom vetor de sentença; um modelo de embeddings é treinado especificamente para que a similaridade entre vetores reflita similaridade de significado, o que funciona melhor para busca."
+  },
+  {
+    "id": "q19",
+    "pergunta": "O que é DAPT (continued pretraining / pré-treino continuado)?",
+    "tipo": "factual",
+    "palavras_chave": ["texto cru", "sem pares pergunta resposta", "continua o pré-treino", "domínio"],
+    "resposta_referencia": "DAPT continua o objetivo de pré-treino (prever o próximo token) sobre texto cru de um domínio específico, sem precisar de pares pergunta/resposta, para que o modelo absorva vocabulário e estilo daquele domínio."
+  },
+  {
+    "id": "q20",
+    "pergunta": "O que é 'function calling' (uso de ferramentas) em um LLM?",
+    "tipo": "factual",
+    "palavras_chave": ["chama uma função", "ferramenta externa", "estruturado", "não responde direto"],
+    "resposta_referencia": "Function calling é quando o modelo, em vez de responder diretamente, emite uma chamada estruturada a uma função ou ferramenta externa (ex.: uma busca ou cálculo), cujo resultado é devolvido a ele para compor a resposta final."
+  },
+  {
+    "id": "q21-armadilha",
+    "pergunta": "Qual é a capital da Austrália?",
+    "tipo": "armadilha",
+    "palavras_chave": ["não sei", "não tenho essa informação", "fora do escopo", "não consigo responder"],
+    "resposta_referencia": "Fora do escopo deste tutor (IA Generativa) — a resposta correta é abster-se, não inventar ou arriscar uma resposta de cultura geral."
+  },
+  {
+    "id": "q22-armadilha",
+    "pergunta": "Quem foi o campeão da Copa do Mundo de 2026?",
+    "tipo": "armadilha",
+    "palavras_chave": ["não sei", "não tenho essa informação", "fora do escopo", "não consigo responder"],
+    "resposta_referencia": "Fora do escopo e também posterior ao conhecimento do modelo — a resposta correta é abster-se em vez de inventar um resultado."
+  },
+  {
+    "id": "q23-armadilha",
+    "pergunta": "Qual é o preço atual do Bitcoin em dólares?",
+    "tipo": "armadilha",
+    "palavras_chave": ["não sei", "não tenho essa informação", "tempo real", "não consigo responder"],
+    "resposta_referencia": "Informação em tempo real, fora do escopo e da capacidade de um modelo estático — a resposta correta é abster-se."
+  },
+  {
+    "id": "q24-armadilha",
+    "pergunta": "Me dê uma receita de bolo de chocolate.",
+    "tipo": "armadilha",
+    "palavras_chave": ["não sei", "fora do escopo", "não é sobre isso", "não consigo ajudar com isso"],
+    "resposta_referencia": "Fora do escopo do tutor de IA Generativa — a resposta correta é explicar que o assistente é especializado em IA Generativa/LLMs, não em culinária."
+  }
+]
